@@ -148,3 +148,8 @@ try:
 except ImportError:
     pass
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'samdeniyi@gmail.com'
+EMAIL_HOST_PASSWORD = 'Oluwatimayomikun$1'
+EMAIL_USE_TLS = True
