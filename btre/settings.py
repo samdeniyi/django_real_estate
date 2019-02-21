@@ -25,7 +25,7 @@ SECRET_KEY = 'nsl*!ik2p0f&f65w)-)u40nzobwiectoq=)im01-2*qklh_1k!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['']
 
 
 # Application definition
@@ -142,14 +142,6 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
-
-# Email config
-
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'storesam86@gmail.com'
-EMAIL_HOST_PASSWORD = 'Oluwabunmi@1'
-EMAIL_USE_TLS = True
 
 try:
     from .local_settings import *
